@@ -2,7 +2,7 @@
   "name": "Platstack",
   "version": "1.0",
   "description": "Social media for your links",
-  "permissions": ["activeTab", "declarativeContent", "storage", "http://phpstack-93963-566910.cloudwaysapps.com/"],
+  "permissions": ["activeTab", "declarativeContent", "storage","http://bitk.local/", "http://phpstack-93963-566910.cloudwaysapps.com/"],
   "background": {
       "scripts": ["background.js"],
       "persistent": false
