@@ -1,0 +1,114 @@
+.parking-lot-container
+{
+	min-height:500px;	
+	position:relative;
+}
+
+.stack-panel .panel-heading
+{
+	position:relative;
+}
+
+
+
+.twitter-typeahead
+{
+	display:block !important;
+}
+
+.tt-menu {
+  width: 422px;
+  margin: 12px 0;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tt-suggestion:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #0097cf;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #0097cf;
+
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+
+.parking-container
+{
+	border-bottom:solid 1px #d1d1d1;
+	position:relative;
+}
+
+.parking-container .link-image
+{
+	padding:0 !important;
+}
+
+.parking-container .link-data
+{
+	padding:20px 40px;
+}
+.parking-container a {
+	transition: all 200ms ease-in-out;
+	-webkit-transition: all 200ms ease-in-out;
+}
+.parking-container .link-data h3 a
+{
+	color: var(--blue);
+	text-decoration:none;
+}
+
+.parking-container .link-data h3 a:hover
+{
+	text-decoration:none;
+	color: var(--text-color);
+}
+
+.parking-lot-container .panel-body
+{
+	border-top:solid 1px #d1d1d1;
+}
+
+.link-comment-button
+{
+	cursor:pointer;
+}
+
+.add-link-form label
+{
+	text-transform:uppercase;
+	line-height:2;
+	font-weight:bold;
+}
+.parking-container .link-data .meta.small a {
+	color: var(--blue);
+}
+.parking-container .link-data .meta.small a:hover {
+	color: var(--text-color);
+}
+a.show-more
+{
+	color:#fff !important;
+	cursor:pointer;
+}
